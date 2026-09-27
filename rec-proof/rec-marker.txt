@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: rec-proof
+  namespace: default
+data:
+  proof: "rendered from devcloudlab-rec/argocd-class-resources, never the student repo"
